@@ -354,7 +354,7 @@
                 <!-- Image Side -->
                 <div class="relative group">
                     <div class="overflow-hidden rounded-[2rem] border border-black/5 shadow-2xl relative aspect-[4/3]">
-                        <img src="images/hero_bg.png" alt="Digital Strategy" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                        <img src="images/digital_strategy.png" alt="Digital Strategy" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
                         <div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent mix-blend-multiply pointer-events-none"></div>
                         <div class="absolute bottom-6 right-6 glass-pill px-6 py-3 shadow-xl border-white/20 animate-float-delayed">
                             <p class="text-on-surface font-headline font-bold text-sm bg-surface/80 rounded-full px-4 py-1 backdrop-blur-md italic">"Strategy precedes code."</p>
@@ -506,12 +506,18 @@
 
                 <!-- Big Image Side -->
                 <div class="order-1 lg:order-2">
-                    <div class="glass-panel p-8 rounded-3xl group relative border border-black/5 hover:border-primary/30 transition-colors w-full aspect-[4/3] flex items-center justify-center bg-surface-container/50 overflow-hidden">
-                        <div class="absolute inset-0 opacity-20 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjEiIGZpbGw9IiMwQTUzODkiLz48L3N2Zz4=')] pointer-events-none"></div>
-                        <img src="images/vpn_network.png" alt="Secure VPN Network" class="w-full h-auto max-h-[80%] object-contain transform group-hover:scale-105 transition-transform duration-700 drop-shadow-2xl relative z-10" />
-                        <div class="absolute bottom-6 mx-auto glass-pill px-6 py-2 flex items-center gap-3 border-primary/30 z-20 shadow-xl bg-surface/90">
-                            <span class="material-symbols-outlined text-primary text-[1.2rem]">shield</span>
-                            <span class="text-xs font-mono font-bold text-primary tracking-widest uppercase">Encrypted Tunnel</span>
+                    <div class="glass-panel p-8 rounded-3xl group overflow-hidden relative border border-black/5 hover:border-primary/30 transition-colors">
+                        <div class="absolute -right-20 -top-20 w-64 h-64 bg-primary/10 rounded-full blur-[80px]"></div>
+                        <div class="relative z-10 mb-8">
+                            <span class="material-symbols-outlined text-primary text-4xl mb-4 bg-primary/10 p-3 rounded-xl inline-block">vpn_lock</span>
+                            <h3 class="text-2xl font-headline font-bold mb-2">Enterprise VPN</h3>
+                        </div>
+                        <div class="rounded-xl border border-black/5 bg-surface/50 relative overflow-hidden">
+                            <img src="images/vpn_network.png" alt="Secure VPN Network" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                            <div class="absolute top-4 right-4 glass-pill px-3 py-1 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-[0.8rem]">shield</span>
+                                <span class="text-[10px] text-on-surface font-bold uppercase tracking-widest">Encrypted Tunnel</span>
+                            </div>
                         </div>
                     </div>
                 </div>
