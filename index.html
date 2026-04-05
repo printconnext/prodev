@@ -148,10 +148,10 @@
                 <a class="text-on-surface hover:text-slate-400 transition-colors" href="#home">Home</a>
                 <a class="text-on-surface hover:text-slate-400 transition-colors" href="#custom-software">Custom Software</a>
                 <a class="text-on-surface hover:text-slate-400 transition-colors" href="#bi-dashboard">BI Dashboard</a>
-                <a class="text-on-surface hover:text-slate-400 transition-colors" href="#digital-strategy">Strategy</a>
-                <a class="text-on-surface hover:text-slate-400 transition-colors" href="#infrastructure">Security</a>
+                <a class="text-on-surface hover:text-slate-400 transition-colors" href="#digital-strategy">AI Agent</a>
+                <a class="text-on-surface hover:text-slate-400 transition-colors" href="#infrastructure">VPN & Network</a>
             </div>
-            <a href="#contact" class="green-gradient-bg text-on-secondary px-6 py-2.5 rounded-full font-bold text-sm tracking-wide hover:scale-105 hover:shadow-[0_0_20px_rgba(70,177,86,0.3)] transition-all duration-300">
+            <a href="tel:021972695" class="green-gradient-bg text-on-secondary px-6 py-2.5 rounded-full font-bold text-sm tracking-wide hover:scale-105 hover:shadow-[0_0_20px_rgba(70,177,86,0.3)] transition-all duration-300">
                 Contact
             </a>
         </div>
@@ -205,17 +205,24 @@
 
         <!-- Service 01: Custom Software Development -->
         <section id="custom-software" class="mb-40 px-8 max-w-screen-2xl mx-auto scroll-mt-32">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-16 items-center lg:items-stretch">
                 
                 <!-- Image Side -->
-                <div class="relative group">
-                    <div class="overflow-hidden rounded-[2rem] border border-black/5 shadow-2xl relative aspect-[4/3]">
-                        <img src="images/erp_dashboard.png" alt="ERP Dashboard Mockup" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                <div class="h-full">
+                    <div class="glass-panel p-8 rounded-3xl group overflow-hidden relative border border-black/5 hover:border-secondary/30 transition-colors h-full flex flex-col">
+                        <div class="absolute -right-20 -top-20 w-64 h-64 bg-secondary/10 rounded-full blur-[80px]"></div>
+                        <div class="relative z-10 mb-8 shrink-0 flex items-center gap-4">
+                            <span class="material-symbols-outlined text-secondary text-4xl bg-secondary/10 p-3 rounded-xl flex-shrink-0">dashboard</span>
+                            <h3 class="text-2xl font-headline font-bold mb-0">Enterprise Platform</h3>
+                        </div>
+                        <div class="rounded-xl border border-black/5 bg-surface/50 relative overflow-hidden flex-grow min-h-[300px]">
+                            <img src="images/erp_dashboard.png" alt="ERP Dashboard Mockup" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                        </div>
                     </div>
                 </div>
 
                 <!-- Text Side -->
-                <div>
+                <div class="flex flex-col lg:pl-10">
                     <div class="flex items-center gap-4 mb-6">
                         <span class="text-5xl font-headline font-black text-outline-variant/30">01</span>
                         <div class="h-[2px] w-16 bg-gradient-to-r from-secondary to-transparent"></div>
@@ -249,25 +256,22 @@
                         </div>
                     </div>
 
-                    <div class="glass-panel p-1 rounded-[1.8rem] premium-border w-full max-w-lg">
-                        <div class="bg-surface-container-low/80 backdrop-blur-xl rounded-2xl p-8 relative overflow-hidden">
-                            <!-- Top Label -->
-                            <div class="absolute top-0 right-0 green-gradient-bg px-6 py-2 rounded-bl-2xl">
-                                <p class="text-white text-[10px] font-bold uppercase tracking-wider">Web App Package</p>
-                            </div>
-                            
-                            <div class="flex items-baseline gap-2 mb-6 pb-6 border-b border-black/5">
-                                <span class="text-5xl font-headline font-black text-on-surface">฿20,000</span>
-                                <span class="text-on-surface-variant">/ เดือน</span>
-                            </div>
-                            
-                            <p class="text-on-surface-variant mb-8 text-sm italic h-10">สัญญา 12 เดือน · ฟรี Maintenance & Consulting</p>
-                            
-                            <a href="#contact" class="w-full flex justify-center items-center gap-3 green-gradient-bg text-white py-4 rounded-xl font-bold uppercase tracking-widest hover:shadow-[0_0_25px_rgba(70,177,86,0.4)] transition-all">
-                                <span class="material-symbols-outlined text-[1.2rem]">rocket_launch</span>
-                                Get Started
-                            </a>
+                    <div class="bg-white border border-secondary/30 rounded-[1.8rem] p-8 w-full max-w-lg relative overflow-hidden shadow-sm">
+                        <div class="absolute top-0 right-0 bg-secondary px-6 py-2 rounded-bl-2xl">
+                            <p class="text-white text-[10px] font-bold uppercase tracking-wider">WEB APP PACKAGE</p>
                         </div>
+                        
+                        <div class="flex items-baseline gap-2 mb-4 mt-2 pb-6 border-b border-black/5">
+                            <span class="text-5xl font-headline font-black text-on-surface tracking-tight">฿20,000</span>
+                            <span class="text-on-surface-variant text-sm font-medium">/ เดือน</span>
+                        </div>
+                        
+                        <p class="text-on-surface-variant mb-6 text-sm italic">สัญญา 12 เดือน · ฟรี Maintenance & Consulting</p>
+                        
+                        <a href="mailto:sale@professrent.co.th" class="w-full flex justify-center items-center gap-2 bg-secondary hover:bg-secondary/90 text-white py-4 rounded-xl font-bold uppercase tracking-widest transition-all">
+                            <span class="material-symbols-outlined text-[1.2rem]">rocket_launch</span>
+                            GET STARTED
+                        </a>
                     </div>
                 </div>
 
@@ -276,10 +280,10 @@
 
         <!-- Service 02: BI Dashboard -->
         <section id="bi-dashboard" class="mb-40 px-8 max-w-screen-2xl mx-auto scroll-mt-32">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-16 items-center lg:items-stretch">
                 
                 <!-- Text Side -->
-                <div class="order-2 lg:order-1">
+                <div class="order-2 lg:order-1 flex flex-col">
                     <div class="flex items-center gap-4 mb-6">
                         <span class="text-5xl font-headline font-black text-outline-variant/30">02</span>
                         <div class="h-[2px] w-16 bg-gradient-to-r from-primary to-transparent"></div>
@@ -294,48 +298,46 @@
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                         <div class="glass-panel p-6 rounded-2xl border-t border-white/10 hover:border-secondary/30 transition-colors">
-                            <span class="material-symbols-outlined text-secondary text-3xl mb-4">auto_awesome</span>
-                            <h4 class="font-bold text-on-surface mb-2">Auto Reporting</h4>
-                            <p class="text-xs text-on-surface-variant leading-relaxed">ระบบจัดพิมพ์รายงานส่งตรงถึงผู้บริหารอัตโนมัติ 24/7</p>
+                            <span class="material-symbols-outlined text-secondary text-3xl mb-4">trending_up</span>
+                            <h4 class="font-bold text-on-surface text-lg mb-2">Auto Reporting</h4>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">ระบบจัดพิมพ์รายงานส่งตรงถึงผู้บริหารอัตโนมัติ 24/7</p>
                         </div>
                         <div class="glass-panel p-6 rounded-2xl border-t border-white/10 hover:border-primary/30 transition-colors">
                             <span class="material-symbols-outlined text-primary text-3xl mb-4">shield_lock</span>
-                            <h4 class="font-bold text-on-surface mb-2">PDPA Compliant</h4>
-                            <p class="text-xs text-on-surface-variant leading-relaxed">ออกแบบตามมาตรฐาน PDPA ตั้งแต่วันแรก ปลอดภัยระดับสากล</p>
+                            <h4 class="font-bold text-on-surface text-lg mb-2">PDPA Compliant</h4>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">ออกแบบตามมาตรฐาน PDPA ตั้งแต่วันแรก ปลอดภัยระดับสากล</p>
                         </div>
                     </div>
 
-                    <div class="glass-panel p-1 rounded-[1.8rem] premium-border-blue w-full max-w-lg">
-                        <div class="bg-surface-container-low/80 backdrop-blur-xl rounded-2xl p-8 relative overflow-hidden">
-                            <div class="absolute top-0 right-0 blue-gradient-bg px-6 py-2 rounded-bl-2xl">
-                                <p class="text-white text-[10px] font-bold uppercase tracking-wider">Business Intelligence</p>
-                            </div>
-                            <div class="flex items-center gap-4 mb-6">
-                                <div class="p-3 bg-primary/10 rounded-xl text-primary">
-                                    <span class="material-symbols-outlined text-3xl">analytics</span>
-                                </div>
-                                <div>
-                                    <h4 class="font-headline font-bold text-on-surface">Data Hub Setup</h4>
-                                    <p class="text-xs text-on-surface-variant">เริ่มต้นเปลี่ยนข้อมูลเป็นมูลค่า</p>
-                                </div>
-                            </div>
-                            <a href="#contact" class="w-full flex justify-center items-center gap-3 blue-gradient-bg text-white py-4 rounded-xl font-bold uppercase tracking-widest hover:shadow-[0_0_25px_rgba(10,83,137,0.4)] transition-all">
-                                Request a Demo
-                            </a>
+                    <div class="bg-white border border-primary/20 rounded-[1.8rem] p-8 w-full max-w-lg relative overflow-hidden shadow-sm">
+                        <div class="absolute top-0 right-0 bg-primary px-6 py-2 rounded-bl-2xl">
+                            <p class="text-white text-[10px] font-bold uppercase tracking-wider">Business Intelligence</p>
                         </div>
+                        
+                        <div class="flex items-baseline gap-2 mb-4 mt-2 pb-6 border-b border-black/5">
+                            <span class="text-5xl font-headline font-black text-on-surface tracking-tight">฿20,000</span>
+                            <span class="text-on-surface-variant text-sm font-medium">/ เดือน</span>
+                        </div>
+                        
+                        <p class="text-on-surface-variant mb-6 text-sm italic">สัญญา 6 เดือน · เริ่มต้นเปลี่ยนข้อมูลเป็นมูลค่า</p>
+                        
+                        <a href="mailto:sale@professrent.co.th" class="w-full flex justify-center items-center gap-2 bg-primary hover:bg-primary/90 text-white py-4 rounded-xl font-bold uppercase tracking-widest transition-all">
+                            <span class="material-symbols-outlined text-[1.2rem]">rocket_launch</span>
+                            GET STARTED
+                        </a>
                     </div>
                 </div>
 
                 <!-- Image Side (Bento Cards) -->
-                <div class="order-1 lg:order-2">
-                    <div class="glass-panel p-8 rounded-3xl group overflow-hidden relative border border-black/5 hover:border-primary/30 transition-colors">
+                <div class="order-1 lg:order-2 h-full">
+                    <div class="glass-panel p-8 rounded-3xl group overflow-hidden relative border border-black/5 hover:border-primary/30 transition-colors h-full flex flex-col">
                         <div class="absolute -right-20 -top-20 w-64 h-64 bg-primary/10 rounded-full blur-[80px]"></div>
-                        <div class="relative z-10 mb-8">
-                            <span class="material-symbols-outlined text-primary text-4xl mb-4 bg-primary/10 p-3 rounded-xl inline-block">monitoring</span>
-                            <h3 class="text-2xl font-headline font-bold mb-2">Live Business Cockpit</h3>
+                        <div class="relative z-10 mb-8 shrink-0 flex items-center gap-4">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-primary/10 p-3 rounded-xl flex-shrink-0">monitoring</span>
+                            <h3 class="text-2xl font-headline font-bold mb-0">Live Business Cockpit</h3>
                         </div>
-                        <div class="rounded-xl border border-black/5 bg-surface/50 relative overflow-hidden">
-                            <img src="images/bi_intelligence.png" alt="BI Dashboard" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                        <div class="rounded-xl border border-black/5 bg-surface/50 relative overflow-hidden flex-grow min-h-[300px]">
+                            <img src="images/bi_intelligence.png" alt="BI Dashboard" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
                             <div class="absolute top-4 right-4 glass-pill px-3 py-1 flex items-center gap-2">
                                 <div class="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></div>
                                 <span class="text-[10px] text-on-surface font-bold uppercase tracking-widest">Live Data</span>
@@ -349,68 +351,73 @@
 
         <!-- Service 03: Digital Strategy -->
         <section id="digital-strategy" class="mb-40 px-8 max-w-screen-2xl mx-auto scroll-mt-32">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-16 items-center lg:items-stretch">
                 
                 <!-- Image Side -->
-                <div class="relative group">
-                    <div class="overflow-hidden rounded-[2rem] border border-black/5 shadow-2xl relative aspect-[4/3]">
-                        <img src="images/digital_strategy.png" alt="Digital Strategy" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
-                        <div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent mix-blend-multiply pointer-events-none"></div>
-                        <div class="absolute bottom-6 right-6 glass-pill px-6 py-3 shadow-xl border-white/20 animate-float-delayed">
-                            <p class="text-on-surface font-headline font-bold text-sm bg-surface/80 rounded-full px-4 py-1 backdrop-blur-md italic">"Strategy precedes code."</p>
+                <div class="h-full">
+                    <div class="glass-panel p-8 rounded-3xl group overflow-hidden relative border border-black/5 hover:border-secondary/30 transition-colors h-full flex flex-col">
+                        <div class="absolute -right-20 -top-20 w-64 h-64 bg-secondary/10 rounded-full blur-[80px]"></div>
+                        <div class="relative z-10 mb-8 shrink-0 flex items-center gap-4">
+                            <span class="material-symbols-outlined text-secondary text-4xl bg-secondary/10 p-3 rounded-xl flex-shrink-0">smart_toy</span>
+                            <h3 class="text-2xl font-headline font-bold mb-0">AI Agent Setup</h3>
+                        </div>
+                        <div class="rounded-xl border border-black/5 bg-surface/50 relative overflow-hidden flex-grow min-h-[300px]">
+                            <img src="images/digital_strategy.png" alt="Digital Strategy" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                            <div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent mix-blend-multiply pointer-events-none"></div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Text Side -->
-                <div>
+                <div class="flex flex-col lg:pl-10">
                     <div class="flex items-center gap-4 mb-6">
                         <span class="text-5xl font-headline font-black text-outline-variant/30">03</span>
                         <div class="h-[2px] w-16 bg-gradient-to-r from-secondary to-transparent"></div>
                     </div>
                     <h2 class="text-4xl md:text-5xl font-headline font-bold text-on-surface mb-6 leading-tight">
-                        Digital <span class="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-green-600">Strategy</span>
+                        AI Agent <span class="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-green-600">Setup</span>
                     </h2>
                     <p class="text-on-surface-variant mb-10 text-lg leading-relaxed">
-                        วาง Roadmap เชิงกลยุทธ์ที่ตรงกับเป้าหมายธุรกิจจริง ผสาน IT Consulting เข้ากับ Business Flow ขององค์กรคุณเพื่อสร้างจุดยืนผู้นำในตลาด
+                        บริการวางระบบและติดตั้ง AI Agent ที่ปรับแต่งเฉพาะสำหรับธุรกิจคุณ ผสานเทคโนโลยีอัตโนมัติเข้ากับ Business Flow ขององค์กรคุณเพื่อสร้างจุดยืนผู้นำในตลาด
                     </p>
 
-                    <div class="space-y-4 mb-12">
-                        <div class="p-6 glass-panel rounded-2xl hover:bg-surface-container-low transition-colors group">
-                            <div class="flex items-center gap-4 mb-2">
-                                <div class="p-2 bg-secondary/10 rounded text-secondary group-hover:scale-110 transition-transform">
-                                    <span class="material-symbols-outlined text-[1.2rem]">trending_up</span>
-                                </div>
-                                <h4 class="font-bold text-on-surface text-lg">Market Positioning</h4>
+                    <div class="space-y-6 mb-12">
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-secondary/10 rounded-xl text-secondary flex-shrink-0 h-min">
+                                <span class="material-symbols-outlined text-[1.2rem]">auto_awesome</span>
                             </div>
-                            <p class="text-sm text-on-surface-variant md:ml-14 mt-2 md:mt-0">ออกแบบ Unique Value Proposition และช่องว่างการแข่งขันทางเทคโนโลยี</p>
+                            <div>
+                                <h4 class="font-bold text-on-surface text-lg mb-1">AI Use Case Assessment</h4>
+                                <p class="text-sm text-on-surface-variant leading-relaxed">วิเคราะห์กระบวนการทำงานเพื่อหาจุดที่เหมาะสมที่สุดในการนำ AI เข้ามาช่วยแก้ปัญหา และออกแบบ Workflow</p>
+                            </div>
                         </div>
-                        <div class="p-6 glass-panel rounded-2xl hover:bg-surface-container-low transition-colors group">
-                            <div class="flex items-center gap-4 mb-2">
-                                <div class="p-2 bg-primary/10 rounded text-primary group-hover:scale-110 transition-transform">
-                                    <span class="material-symbols-outlined text-[1.2rem]">inventory_2</span>
-                                </div>
-                                <h4 class="font-bold text-on-surface text-lg">Tech Stack Audit</h4>
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-primary/10 rounded-xl text-primary flex-shrink-0 h-min">
+                                <span class="material-symbols-outlined text-[1.2rem]">inventory_2</span>
                             </div>
-                            <p class="text-sm text-on-surface-variant md:ml-14 mt-2 md:mt-0">ลดความซ้ำซ้อนของโปรแกรม ลดต้นทุนไลเซนส์ และเพิ่มประสิทธิภาพระบบ</p>
+                            <div>
+                                <h4 class="font-bold text-on-surface text-lg mb-1">Custom Agent Configuration</h4>
+                                <p class="text-sm text-on-surface-variant leading-relaxed">ออกแบบและฝึกฝน (Train) AI ให้เข้าใจฐานข้อมูลเฉพาะองค์กร พร้อมเชื่อมต่อ API เข้ากับระบบเดิม</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="glass-panel p-1 rounded-[1.8rem] premium-border w-full max-w-lg">
-                        <div class="bg-surface-container-low/80 backdrop-blur-xl rounded-2xl p-8 relative overflow-hidden">
-                            <div class="absolute top-0 right-0 green-gradient-bg px-6 py-2 rounded-bl-2xl">
-                                <p class="text-white text-[10px] font-bold uppercase tracking-wider">Consulting</p>
-                            </div>
-                            <div class="flex items-center gap-4">
-                                <div class="p-3 bg-secondary/10 rounded-xl text-secondary">
-                                    <span class="material-symbols-outlined text-3xl">lightbulb</span>
-                                </div>
-                                <div>
-                                    <h4 class="font-headline font-bold text-on-surface">Agile Roadmap</h4>
-                                    <p class="text-xs text-on-surface-variant">วางแผนระยะยาวเพื่อการเติบโตที่ยั่งยืน</p>
-                                </div>
-                            </div>
+                    <div class="bg-white border border-secondary/30 rounded-[1.8rem] p-8 w-full max-w-lg relative overflow-hidden shadow-sm">
+                        <div class="absolute top-0 right-0 bg-secondary px-6 py-2 rounded-bl-2xl">
+                            <p class="text-white text-[10px] font-bold uppercase tracking-wider">IMPLEMENTATION</p>
                         </div>
+                        
+                        <div class="flex items-baseline gap-2 mb-4 mt-2 pb-6 border-b border-black/5">
+                            <span class="text-5xl font-headline font-black text-on-surface tracking-tight">฿20,000</span>
+                            <span class="text-on-surface-variant text-sm font-medium">/ เดือน</span>
+                        </div>
+                        
+                        <p class="text-on-surface-variant mb-6 text-sm italic">สัญญา 6 เดือน · ประเมินผลและปรับแต่งต่อเนื่อง</p>
+                        
+                        <a href="mailto:sale@professrent.co.th" class="w-full flex justify-center items-center gap-2 bg-secondary hover:bg-secondary/90 text-white py-4 rounded-xl font-bold uppercase tracking-widest transition-all">
+                            <span class="material-symbols-outlined text-[1.2rem]">rocket_launch</span>
+                            GET STARTED
+                        </a>
                     </div>
                 </div>
 
@@ -422,91 +429,84 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-16 items-center lg:items-stretch">
                 
                 <!-- Text Side -->
-                <div class="lg:pr-10 order-2 lg:order-1 flex flex-col justify-between h-full">
+                <div class="lg:pr-10 order-2 lg:order-1 flex flex-col">
                     <div>
                         <div class="flex items-center gap-4 mb-6">
                             <span class="text-5xl font-headline font-black text-outline-variant/30">04</span>
                             <div class="h-[2px] w-16 bg-gradient-to-r from-primary to-transparent"></div>
                         </div>
                         <h2 class="text-4xl md:text-5xl font-headline font-bold text-on-surface mb-6 leading-tight">
-                            Secure <br/>
-                            <span class="text-primary">Infrastructure</span>
+                            VPN & <br/>
+                            <span class="text-primary">Network Setup</span>
                         </h2>
                         <p class="text-on-surface-variant mb-10 text-lg leading-relaxed">
                             ยกระดับความปลอดภัยด้วยระบบเครือข่าย VPN มาตรฐาน Enterprise ป้องกันการเข้าถึงที่ไม่ได้รับอนุญาต รองรับรูปแบบการทำงาน Remote Work อย่างสมบูรณ์
                         </p>
 
-                        <div class="grid grid-cols-2 gap-8 mb-12">
-                            <div class="flex flex-col gap-3 group">
-                                <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-transparent group-hover:border-primary/30 transition-all">
+                        <div class="grid grid-cols-2 gap-4 gap-y-8 mb-12">
+                            <div class="flex items-start gap-3 group">
+                                <div class="w-12 h-12 flex-shrink-0 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-transparent group-hover:border-primary/30 transition-all mt-0.5">
                                     <span class="material-symbols-outlined">vpn_lock</span>
                                 </div>
-                                <h4 class="font-bold text-on-surface text-sm">Encrypted VPN</h4>
-                                <p class="text-[10px] text-on-surface-variant font-light">ช่องทางปลอดภัยระดับแอดวานซ์</p>
+                                <div>
+                                    <h4 class="font-bold text-on-surface text-lg mb-1">Encrypted VPN</h4>
+                                    <p class="text-sm text-on-surface-variant leading-relaxed">ช่องทางปลอดภัยระดับแอดวานซ์</p>
+                                </div>
                             </div>
-                            <div class="flex flex-col gap-3 group">
-                                <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-transparent group-hover:border-primary/30 transition-all">
+                            <div class="flex items-start gap-3 group">
+                                <div class="w-12 h-12 flex-shrink-0 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-transparent group-hover:border-primary/30 transition-all mt-0.5">
                                     <span class="material-symbols-outlined">home_work</span>
                                 </div>
-                                <h4 class="font-bold text-on-surface text-sm">Remote Work</h4>
-                                <p class="text-[10px] text-on-surface-variant font-light">ทำงานจากทุกที่อย่างปลอดภัย</p>
+                                <div>
+                                    <h4 class="font-bold text-on-surface text-lg mb-1">Remote Work</h4>
+                                    <p class="text-sm text-on-surface-variant leading-relaxed">ทำงานจากทุกที่อย่างปลอดภัย</p>
+                                </div>
                             </div>
-                            <div class="flex flex-col gap-3 group">
-                                <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-transparent group-hover:border-primary/30 transition-all">
+                            <div class="flex items-start gap-3 group">
+                                <div class="w-12 h-12 flex-shrink-0 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-transparent group-hover:border-primary/30 transition-all mt-0.5">
                                     <span class="material-symbols-outlined">storage</span>
                                 </div>
-                                <h4 class="font-bold text-on-surface text-sm">Portability</h4>
-                                <p class="text-[10px] text-on-surface-variant font-light">ย้ายระบบได้อิสระ ไร้ข้อผูกมัด</p>
+                                <div>
+                                    <h4 class="font-bold text-on-surface text-lg mb-1">Portability</h4>
+                                    <p class="text-sm text-on-surface-variant leading-relaxed">ย้ายระบบได้อิสระ ไร้ข้อผูกมัด</p>
+                                </div>
                             </div>
-                            <div class="flex flex-col gap-3 group">
-                                <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-transparent group-hover:border-primary/30 transition-all">
+                            <div class="flex items-start gap-3 group">
+                                <div class="w-12 h-12 flex-shrink-0 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-transparent group-hover:border-primary/30 transition-all mt-0.5">
                                     <span class="material-symbols-outlined">verified_user</span>
                                 </div>
-                                <h4 class="font-bold text-on-surface text-sm">Access Policy</h4>
-                                <p class="text-[10px] text-on-surface-variant font-light">กำหนดสิทธิ์เข้าถึงตามหน้าที่</p>
+                                <div>
+                                    <h4 class="font-bold text-on-surface text-lg mb-1">Access Policy</h4>
+                                    <p class="text-sm text-on-surface-variant leading-relaxed">กำหนดสิทธิ์เข้าถึงตามหน้าที่</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Moved Pricing Card Here -->
-                    <div class="glass-panel p-1 rounded-[1.8rem] premium-border-blue w-full max-w-lg">
-                        <div class="bg-surface-container-low/80 backdrop-blur-xl rounded-2xl p-8 relative overflow-hidden h-full flex flex-col justify-between">
-                            <div class="absolute top-0 right-0 blue-gradient-bg px-6 py-2 rounded-bl-2xl">
-                                <p class="text-white text-[10px] font-bold uppercase tracking-wider">Annual Package</p>
-                            </div>
-
-                            <div>
-                                <h3 class="text-2xl font-headline font-bold text-on-surface mb-2 mt-4">VPN & Network Setup</h3>
-                                <p class="text-on-surface-variant mb-6 text-xs italic">รวมติดตั้งระบบ และ Maintenance ตลอดปี</p>
-                                
-                                <div class="flex items-baseline gap-2 mb-8 pb-8 border-b border-black/5">
-                                    <span class="text-5xl font-headline font-black text-on-surface">฿30,000</span>
-                                    <span class="text-on-surface-variant">/ ปี</span>
-                                </div>
-                            </div>
-                            
-                            <div>
-                                <ul class="space-y-4 mb-10">
-                                    <li class="flex items-center gap-3 text-sm text-on-surface">
-                                        <div class="w-5 h-5 rounded-full bg-primary/10 flex flex-shrink-0 items-center justify-center text-primary">
-                                            <span class="material-symbols-outlined text-[0.8rem]">check</span>
-                                        </div>
-                                        <span>ติดตั้งและตั้งค่า VPN Server แบบรัดกุม</span>
-                                    </li>
-                                    <li class="flex items-center gap-3 text-sm text-on-surface">
-                                        <div class="w-5 h-5 rounded-full bg-primary/10 flex flex-shrink-0 items-center justify-center text-primary">
-                                            <span class="material-symbols-outlined text-[0.8rem]">check</span>
-                                        </div>
-                                        <span>รองรับ Remote Access ทุกแพลตฟอร์ม</span>
-                                    </li>
-                                </ul>
-                                
-                                <a href="tel:021972695" class="w-full flex justify-center items-center gap-3 blue-gradient-bg text-white py-4 rounded-xl font-bold uppercase tracking-widest hover:shadow-[0_0_25px_rgba(10,83,137,0.4)] transition-all">
-                                    <span class="material-symbols-outlined text-[1.2rem]">call</span>
-                                    02 197 2695
-                                </a>
-                            </div>
+                    <div class="bg-white border border-primary/20 rounded-[1.8rem] p-8 w-full max-w-lg relative overflow-hidden shadow-sm">
+                        <div class="absolute top-0 right-0 bg-primary px-6 py-2 rounded-bl-2xl">
+                            <p class="text-white text-[10px] font-bold uppercase tracking-wider">ANNUAL PACKAGE</p>
                         </div>
+
+                        <div class="flex items-baseline gap-2 mb-4 mt-2 pb-6 border-b border-black/5">
+                            <span class="text-5xl font-headline font-black text-on-surface tracking-tight">฿30,000</span>
+                            <span class="text-on-surface-variant text-sm font-medium">/ ปี</span>
+                        </div>
+                        
+                        <ul class="space-y-4 mb-6">
+                            <li class="flex items-start gap-3 text-sm text-on-surface">
+                                <div class="w-5 h-5 rounded-full bg-primary/10 flex flex-shrink-0 items-center justify-center text-primary mt-0.5">
+                                    <span class="material-symbols-outlined text-[0.8rem]">check</span>
+                                </div>
+                                <span class="leading-relaxed">ติดตั้งและตั้งค่า VPN Server และ Maintenance ตลอดสัญญา · รองรับ Remote Access ทุกแพลตฟอร์ม</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="mailto:sale@professrent.co.th" class="w-full flex justify-center items-center gap-2 bg-primary hover:bg-primary/90 text-white py-4 rounded-xl font-bold uppercase tracking-widest transition-all">
+                            <span class="material-symbols-outlined text-[1.2rem]">rocket_launch</span>
+                            GET STARTED
+                        </a>
                     </div>
                 </div>
 
@@ -514,12 +514,12 @@
                 <div class="order-1 lg:order-2 h-full">
                     <div class="glass-panel p-8 rounded-3xl group overflow-hidden relative border border-black/5 hover:border-primary/30 transition-colors h-full flex flex-col">
                         <div class="absolute -right-20 -top-20 w-64 h-64 bg-primary/10 rounded-full blur-[80px]"></div>
-                        <div class="relative z-10 mb-8 shrink-0">
-                            <span class="material-symbols-outlined text-primary text-4xl mb-4 bg-primary/10 p-3 rounded-xl inline-block">vpn_lock</span>
-                            <h3 class="text-2xl font-headline font-bold mb-2">Enterprise VPN</h3>
+                        <div class="relative z-10 mb-8 shrink-0 flex items-center gap-4">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-primary/10 p-3 rounded-xl flex-shrink-0">vpn_lock</span>
+                            <h3 class="text-2xl font-headline font-bold mb-0">Enterprise VPN</h3>
                         </div>
                         <div class="rounded-xl border border-black/5 bg-surface/50 relative overflow-hidden flex-grow min-h-[300px]">
-                            <img src="images/vpn_network.png" alt="Secure VPN Network" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                            <img src="images/vpn_network.png" alt="Secure VPN Network" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" />
                             <div class="absolute top-4 right-4 glass-pill px-3 py-1 flex items-center gap-2">
                                 <span class="material-symbols-outlined text-primary text-[0.8rem]">shield</span>
                                 <span class="text-[10px] text-on-surface font-bold uppercase tracking-widest">Encrypted Tunnel</span>
@@ -549,12 +549,12 @@
                         เริ่มต้นเปลี่ยนกระบวนการทำงานแบบเดิมของคุณ ให้กลายเป็นเรื่องง่ายด้วยระบบออโตเมชัน นัดคุยกับสถาปนิกซอฟต์แวร์ของเราวันนี้
                     </p>
                     <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
-                        <button class="w-full sm:w-auto green-gradient-bg text-on-secondary px-10 py-4 rounded-full font-bold text-lg uppercase tracking-widest hover:scale-105 hover:shadow-[0_0_20px_rgba(70,177,86,0.4)] transition-all">
+                        <a href="mailto:sale@professrent.co.th" class="w-full sm:w-auto green-gradient-bg text-on-secondary px-10 py-4 rounded-full font-bold text-lg uppercase tracking-widest hover:scale-105 hover:shadow-[0_0_20px_rgba(70,177,86,0.4)] transition-all text-center">
                             Start a Project
-                        </button>
-                        <button class="w-full sm:w-auto text-on-surface px-10 py-4 rounded-full font-bold text-lg uppercase tracking-widest border border-black/10 hover:bg-black/5 transition-colors">
+                        </a>
+                        <a href="tel:021972695" class="w-full sm:w-auto text-on-surface px-10 py-4 rounded-full font-bold text-lg uppercase tracking-widest border border-black/10 hover:bg-black/5 transition-colors text-center">
                             Contact Sales
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -598,9 +598,10 @@
             <div class="flex flex-col gap-6 md:items-end">
                 <h4 class="text-lg font-bold text-on-surface font-headline tracking-wider uppercase">Links</h4>
                 <div class="flex flex-col gap-3 font-body text-sm font-medium text-on-surface-variant uppercase tracking-wider md:items-end">
-                    <a class="hover:text-secondary transition-colors" href="#">Privacy Policy</a>
-                    <a class="hover:text-secondary transition-colors" href="#">Terms of Service</a>
-                    <a class="hover:text-secondary transition-colors" href="#">Consulting Login</a>
+                    <a class="hover:text-secondary transition-colors" href="#custom-software">Custom Software</a>
+                    <a class="hover:text-secondary transition-colors" href="#bi-dashboard">BI Dashboard</a>
+                    <a class="hover:text-secondary transition-colors" href="#digital-strategy">AI Agent</a>
+                    <a class="hover:text-secondary transition-colors" href="#infrastructure">VPN & Network</a>
                 </div>
             </div>
         </div>
